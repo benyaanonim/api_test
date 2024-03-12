@@ -1,0 +1,35 @@
+{
+  "name": "my-simple-nodejs-project",
+  "version": "1.0.0",
+  "description": "A simple Node.js project",
+  "main": "app.js",
+  "scripts": {
+    "start": "node dist/app.js",
+    "dev": "tsc-watch --onSuccess \"nodemon dist/app.js\"",
+    "build": "tsc"
+  },
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {
+    "2captcha-ts": "^2.2.2",
+    "data": "^0.6.1",
+    "dotenv": "^16.3.1",
+    "express": "^4.17.1",
+    "flatted": "^3.2.9",
+    "input": "^1.0.1",
+    "mongodb": "^6.3.0",
+    "multer": "^1.4.5-lts.1",
+    "puppeteer": "^21.7.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/multer": "^1.4.11",
+    "@types/swagger-jsdoc": "^6.0.4",
+    "@types/swagger-ui-express": "^4.1.6",
+    "nodemon": "^3.0.2",
+    "tsc-watch": "^6.0.4"
+  }
+}
